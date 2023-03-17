@@ -1,0 +1,85 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f4f2f2;
+    color:black;
+    padding: 10px;
+  }
+  
+  .logo img {
+    height: 50px;
+ padding-left: 50px;
+  }
+  
+  .nav-content {
+    text-align: center;
+  }
+  
+  .nav-buttons {
+    
+    color: #181818;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+  }
+  
+  .button:hover {
+    background-color:  #dc3f3f; 
+    color:#fff/* Change button color on hover */
+}
+
+  .button {
+    background-color:#f4f2f2;
+    color: #dc3f3f;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 50px;
+  }
+  
+  .left-content {
+    width: 50%;
+  }
+  
+  .right-content img {
+    width: 100%;
+    height: auto;
+   width: 800px;
+  height: 600px;
+  padding-right: 100px;
+      }
+      .btn {
+        background-color:#dc3f3f;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+        margin-left: 10px; /* Add some margin between the buttons */
+    }
+.btn1{
+        background-color:orange;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+        margin-left: 10px; /* Add some margin between the buttons */
+    }
+    
